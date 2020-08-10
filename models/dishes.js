@@ -57,7 +57,8 @@ const dishSchema=new Schema({
         default: false
     },
     comments:[commentSchema]
-},{
+},{ 
+
     timestamps:true // timestamps will add the creted time and also updated time.
 });
 
